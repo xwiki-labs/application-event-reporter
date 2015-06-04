@@ -148,7 +148,7 @@ icon=icon:calculator</parameters>
   #set($discard = $kpiobj.set('values', $newvalue))
   #set($discard = $datadoc.save())
   {{info}}
-    KPI '$reqkpi' has been saved by '$requser' with the value '$reqvalue'.
+    Event '$reqkpi' has been saved by '$requser' with the value '$reqvalue'.
   {{/info}}
 #end
 
@@ -162,13 +162,13 @@ icon=icon:calculator</parameters>
     &lt;li&gt;&lt;a href="$xwiki.getURL('KPICode.DataDisplay', 'get', 'xpage=plain&amp;format=xml')"&gt;XML&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="$xwiki.getURL('KPICode.DataDisplay', 'get', 'xpage=plain&amp;format=json')"&gt;JSON&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
-  &lt;h1&gt;New KPI&lt;/h1&gt;
+  &lt;h1&gt;New event&lt;/h1&gt;
   &lt;form method="POST"&gt;
     &lt;input type="hidden" id="action" name="action" value="save" /&gt;
     &lt;input type="hidden" id="date" name="date" value="$datetool.getSystemTime()" /&gt;
     &lt;input type="hidden" id="user" name="user" value="$xcontext.getUser()" /&gt;
     &lt;div class="form-group"&gt;
-      &lt;label for="kpi"&gt;Which KPI&lt;/label&gt;
+      &lt;label for="kpi"&gt;Which event&lt;/label&gt;
       &lt;select type="text" id="kpi" name="kpi" class="form-control"&gt;
         #foreach($kpi in $kpis)
           #set($kpiobj = $xwiki.getDocument($kpi).getObject('KPICode.KPIDescriptorClass'))
@@ -178,7 +178,7 @@ icon=icon:calculator</parameters>
           &lt;option value="$kpiid"&gt;($kpiid) $kpiname [in $kpiunit]&lt;/option&gt;
         #end
       &lt;/select&gt;
-      &lt;span class="help-block"&gt;For more information about KPI, click &lt;a href="$xwiki.getURL('KPI.KPIList')"&gt;here&lt;/a&gt;.&lt;/span&gt;
+      &lt;span class="help-block"&gt;For more information about events, click &lt;a href="$xwiki.getURL('KPICode.KPIList')"&gt;here&lt;/a&gt;.&lt;/span&gt;
     &lt;/div&gt;
     &lt;div class="form-group"&gt;
       &lt;label for="value"&gt;Quantity?&lt;/label&gt;
@@ -188,7 +188,7 @@ icon=icon:calculator</parameters>
       &lt;label for="comment"&gt;Any comment?&lt;/label&gt;
       &lt;textarea type="number" id="comment" name="comment" class="form-control" rows="5"&gt;&lt;/textarea&gt;
     &lt;/div&gt;
-    &lt;button type="submit" class="btn btn-primary"&gt;Add KPI&lt;/button&gt;
+    &lt;button type="submit" class="btn btn-primary"&gt;Add event&lt;/button&gt;
   &lt;/form&gt;
 &lt;/div&gt;
 {{/html}}

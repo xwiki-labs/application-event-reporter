@@ -21,7 +21,7 @@
 -->
 
 <xwikidoc>
-  <web>KPI</web>
+  <web>KPICode</web>
   <name>KPIList</name>
   <language/>
   <defaultLanguage/>
@@ -35,7 +35,7 @@
   <date>1433350561000</date>
   <contentUpdateDate>1433350561000</contentUpdateDate>
   <version>1.1</version>
-  <title/>
+  <title>List of events</title>
   <defaultTemplate/>
   <validationScript/>
   <comment/>

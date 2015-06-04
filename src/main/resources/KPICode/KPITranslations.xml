@@ -39,6 +39,6 @@
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>false</hidden>
-  <content>platform.panels.KPIApplication=KPI
-KPI.panels.name=KPI</content>
+  <content>platform.panels.KPIApplication=Event Reporter
+KPI.panels.name=Event Reporter</content>
 </xwikidoc>

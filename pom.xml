@@ -28,11 +28,11 @@
     <version>7.0.1</version>
   </parent>
   <groupId>org.xwiki.contrib</groupId>
-  <artifactId>application-kpi</artifactId>
+  <artifactId>application-event-reporter</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>KPI Application</name>
+  <name>Event Reporter Application</name>
   <packaging>xar</packaging>
-  <description>An application to manage your KPIs</description>
+  <description>An application to report any event that happen in your team</description>
   <developers>
     <developer>
       <id>woshilapin</id>
@@ -40,9 +40,9 @@
     </developer>
   </developers>
   <scm>
-   <connection>scm:git:git://github.com/xwiki-labs/application-kpi.git</connection>
-   <developerConnection>scm:git:git@github.com:xwiki-labs/application-kpi.git</developerConnection>
-   <url>https://github.com/xwiki-labs/application-kpi</url>
+   <connection>scm:git:git://github.com/xwiki-labs/application-event-reporter.git</connection>
+   <developerConnection>scm:git:git@github.com:xwiki-labs/application-event-reporter.git</developerConnection>
+   <url>https://github.com/xwiki-labs/application-event-reporter</url>
     <tag>HEAD</tag>
   </scm>
   <distributionManagement>
