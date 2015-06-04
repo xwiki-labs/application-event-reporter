@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!--
  * See the NOTICE file distributed with this work for additional
  * information regarding copyright ownership.
@@ -19,24 +20,21 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
 -->
 
-<xwikidoc>
-  <web>KPI</web>
-  <name>Data</name>
+<xwikidoc version="1.1">
+  <web>KPICode</web>
+  <name>DataDisplay</name>
   <language/>
   <defaultLanguage/>
-  <translation>0</translation>
   <parent>WebHome</parent>
+  <translation>0</translation>
   <creator>xwiki:XWiki.Admin</creator>
+  <creationDate>1433411113000</creationDate>
   <author>xwiki:XWiki.Admin</author>
-  <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1433338446000</creationDate>
-  <date>1433350958000</date>
-  <contentUpdateDate>1433350956000</contentUpdateDate>
+  <date>1433411113000</date>
+  <contentUpdateDate>1433411113000</contentUpdateDate>
   <version>1.1</version>
   <title/>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
